@@ -1,7 +1,7 @@
 # airportr
 [![Travis-CI Build Status](https://travis-ci.org/dshkol/airportr.svg?branch=master)](https://travis-ci.org/dshkol/airportr)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/airportr)](https://cran.r-project.org/package=airportr)
-[![CRAN_Downloads_Badge](https://cranlogs.r-pkg.org/badges/cancensus)](https://cranlogs.r-pkg.org/badges/airportr)
+[![CRAN_Downloads_Badge](https://cranlogs.r-pkg.org/badges/airportr)](https://cranlogs.r-pkg.org/badges/airportr)
 
 This package uses open source airport data to provide tools to look up information, translate names and codes into other formats, as well as some basic calculation functions for measuring distances.
 
@@ -97,9 +97,9 @@ Another common airport-related task is to locate airports in the vicinity of a c
 3             7273 Boundary Bay A… Boundar… Canada  YDT   CZBB      49.1     -123.        6    -8 A     America/Va… airp… OurAir…
 ```
 
-## Data
+## Data and License
 
-Airport data is from the [OpenFlights Airport Database](https://openflights.org/data.html) made available under the [Open Database License](https://opendatacommons.org/licenses/odbl/1.0/). 
+Software code is licensed under the MIT license. Airport data is from the [OpenFlights Airport Database](https://openflights.org/data.html) made available under the [Open Database License](https://opendatacommons.org/licenses/odbl/1.0/). A local copy of the license exists in the `inst/extdata` directory. 
 
 Disclaimer on the data from OpenFlights:
 
